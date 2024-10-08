@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- קובע שהדף משתמש ב-HTML5 -->
+<html lang="he">
+  <!-- מציין שהשפה של הדף היא עברית -->
+<head>
+  <meta charset="UTF-8">
+  <!-- מגדיר את קידוד התווים כ-UTF-8, כדי לתמוך בתווים בעברית -->
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- מוודא שהדף מותאם לכל המכשירים, בעיקר למובייל -->
+  
+  <title>DOM Example</title>
+  <!-- הכותרת שתופיע בלשונית של הדפדפן -->
+  
+  <link rel="stylesheet" href="style.css">
+  <!-- קישור לקובץ ה-CSS החיצוני שמכיל את העיצוב של הדף -->
+</head>
+
+<body>
+  <h1 id="h1">דוגמה של DOM</h1>
+  <!-- כותרת ראשית שתופיע בעמוד -->
+
+  <p id="text">ברוך הבא לדף הדינמי שלנו!</p>
+  <!-- פסקה עם מזהה ייחודי, שניתן לשנות את התוכן שלה באמצעות JavaScript -->
+
+  <button onclick="changeText()">שנה טקסט</button>
+  <!-- כפתור שמשנה את הטקסט בפסקה כשנלחץ, על ידי קריאה לפונקציה changeText -->
+
+  <button onclick="changeColor()">שנה צבע</button>
+  <!-- כפתור שמשנה את צבע הריבוע כשלוחצים עליו, על ידי קריאה לפונקציה changeColor -->
+
+  <button onclick="addElement()">הוסף אלמנט</button>
+  <!-- כפתור שמוסיף פסקה חדשה לדף כשלוחצים עליו, באמצעות פונקציית addElement -->
+
+  <button onclick="deleteElement()">מחיקת אלמנט</button>
+  <!-- כפתור שמוסיף פסקה חדשה לדף כשלוחצים עליו, באמצעות פונקציית addElement -->
+
+
+  <div class="box" id="box"></div>
+  <!-- תיבה (div) עם מזהה ייחודי ומחלקה בשם box, שניתן לשנות את צבעה באמצעות JavaScript -->
+
+  <script src="Hellow.js"></script>
+  <!-- קישור לקובץ ה-JavaScript החיצוני שמכיל את הפונקציות -->
+</body>
+</html>

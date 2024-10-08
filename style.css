@@ -1,0 +1,48 @@
+body {
+    /* עיצוב כללי של גוף הדף */
+    font-family: Arial, sans-serif; /* הגדרת פונט לדף */
+    text-align: center; /* מרכז את התוכן בצורה אופקית */
+    margin: 0; /* הסרת שוליים ברירת מחדל */
+    padding: 20px; /* הוספת ריווח פנימי */
+    background-color: #f0f0f0; /* צבע רקע אפור בהיר */
+  }
+  
+  h1 {
+    /* עיצוב כותרת ראשית */
+    color: #333; /* צבע טקסט כהה */
+    position: sticky;
+    top: 0;
+  }
+  
+  p {
+    /* עיצוב הפסקאות */
+    font-size: 18px; /* גודל טקסט */
+    color: #666; /* צבע טקסט אפור בהיר */
+  }
+  
+  button {
+    /* עיצוב הכפתורים */
+    padding: 10px 20px; /* ריווח פנימי של הכפתור */
+    font-size: 16px; /* גודל טקסט של הכפתור */
+    background-color: #007bff; /* צבע רקע כחול */
+    color: white; /* צבע טקסט לבן */
+    border: none; /* ללא גבול */
+    border-radius: 5px; /* עיגול הקצוות של הכפתור */
+    cursor: pointer; /* שינוי צורת העכבר ליד בעת ריחוף */
+    
+  }
+  
+  button:hover {
+    /* עיצוב הכפתור כשמרחפים עליו */
+    background-color: #0056b3; /* שינוי צבע הרקע לכחול כהה יותר */
+  }
+  
+  .box {
+    /* עיצוב הריבוע */
+    width: 200px; /* רוחב הריבוע */
+    height: 200px; /* גובה הריבוע */
+    background-color: lightblue; /* צבע רקע תכלת */
+    margin: 20px auto; /* ריווח חיצוני ומרכז אופקי */
+    transition: all 0.5s ease; /* מעבר חלק של שינוי צבע */
+  }
+  
